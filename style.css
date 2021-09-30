@@ -63,7 +63,7 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 0.8rem 1.5rem;
+    padding: 2rem 1.5rem;
     border-bottom-left-radius: 1rem;
 }
 
@@ -73,6 +73,7 @@ hr {
 
 .nav-pills {
     text-align: right;
+    padding: auto;
 }
 
 .navigation .nav-brand {
@@ -124,19 +125,31 @@ hr {
 
 /** Footers **/
 
-.footer {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 2rem 1rem;
+.footer-header {
+    background-color: var(--primary-colour);
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
     text-align: center;
     border-bottom-right-radius: 1.5rem;
-}
+    border-bottom-left-radius: 1.5rem;
+  }
+  
+  .footer-header .social-links {  
+    margin: 1rem;
+  }
+  
+  .handle-logo {
+    width: 2rem;
+    margin: 1rem;
+  }
 
-.footer .link {
-    color: white;
-}
 
-.footer .footer-header {
-    font-weight: bold;
-    font-size: large;
-}
+.showcase-list {
+    /* padding: 2rem; */
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+    font-style: bold;
+    color: black;
+      }
